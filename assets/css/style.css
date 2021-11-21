@@ -60,17 +60,18 @@ footer{
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
@@ -91,10 +92,9 @@ section {
 /* Hero style Start*/
 .hero {
     background-image: url(../images/hero-bg.jpg);
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+   
 }
 
 
@@ -103,12 +103,13 @@ section {
     background-color: #fce138;
     color: #024e76;
     padding: 20px;
-    width: 500px;
     border: 3px solid #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
     background-color: #fce138;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 3.5%;
     
 }
 
@@ -295,6 +296,23 @@ section {
     }
 
     /*Reach out styles End */
+
+    /* Call to Action (CTA) Starts*/
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+}
     
 
 
